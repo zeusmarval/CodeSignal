@@ -2,22 +2,22 @@ Given a year, return the century it is in. The first century spans from the year
 
 Example
 
-For year = 1905, the output should be
-solution(year) = 20;
-For year = 1700, the output should be
-solution(year) = 17.
+**For `year = 1905`, the output should be
+`solution(year) = 20;`**
+**For `year = 1700`, the output should be
+`solution(year) = 17`.**
 
 Input/Output
 
-[execution time limit] 4 seconds (js)
+**[execution time limit] 4 seconds (js)**
 
-[input] integer year
+**[input] integer year**
 
 A positive integer, designating the year.
 
-Guaranteed constraints:
-1 ≤ year ≤ 2005.
+_Guaranteed constraints:_
+`1 ≤ year ≤ 2005`.
 
-[output] integer
+**[output] integer**
 
 The number of the century the year is in.
