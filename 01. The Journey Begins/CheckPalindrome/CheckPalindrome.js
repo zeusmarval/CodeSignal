@@ -1,12 +1,9 @@
-x = 's' 
-x2 = ''
-
-for (let i = 0; i < x.length; i++) {
-    x2 += x[(x.length-1-i)]
+function checkPalindrome(value) {
+    if ((value = value.split("").reverse().join(""))) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
-if (x == x2){
-    console.log('PALINDROME')
-}else {
-    console.log('no')
-}
+checkPalindrome("hola");
