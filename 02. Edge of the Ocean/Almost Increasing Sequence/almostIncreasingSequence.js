@@ -14,4 +14,4 @@ function solution(sequence) {
     return true;
 }
 
-solution(sequence)
+solution(sequence);
