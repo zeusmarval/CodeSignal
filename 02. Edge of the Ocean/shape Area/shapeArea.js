@@ -7,4 +7,3 @@ function shapeArea(n){
 }
 
 console.log(shapeArea(3))
-
